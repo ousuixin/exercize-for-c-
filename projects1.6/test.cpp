@@ -18,10 +18,9 @@ using namespace std;
 int main () {
 
     int row;
-    int num[20][20] = {};
-    cout << "Please tell me the row of the square you want to test"
-         << "(the row of which should not beyond 20)" << endl;
+    cout << "Please tell me the row of the square you want to test:" << endl;
     cin >> row;
+    int num[row][row] = {};
     cout << "Please enter the square you want to test:" << endl;
     for (int i = 0; i < row; i++) {
         for (int j = 0; j < row; ++j)
